@@ -1,0 +1,38 @@
+
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Raw source data and customer records
+data/raw/
+data/processed/
+
+# Temporary files
+*.log
+*.tmp
+
+# Keep final reports and figures
+!reports/
+!reports/**/*.md
+!reports/**/*.pdf
+!reports/figures/
+!reports/figures/*.png
